@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Machine Learning Model Interaction</title>
+</head>
+<body>
+    <h1>Machine Learning Model Interaction</h1>
+        <form action="{{ url_for('process_request')}}" method="post">
+        <label for="model">Select a Model:</label>
+        <select name="model" id="model">
+            <option value="face_detection">Face Detection</option>
+            <option value="car_detection">Car Detection</option>
+            <option value="shoe_detection">Shoe Detection</option>ssss
+            <option value="cloth_detection">Cloth Detection</option>
+            <option value="signal_detection">Signal Detection</option>
+            <option value="water_level_detection">Water Level Detection</option>
+            <option value="missile_detection">Missile Detection</option>
+        </select>
+        <button type="submit" onclick="processRequest()">/New loaded</button>
+    </form>
+
+    <br>
+    <h2>
+    {{ prediction_text }}
+    <h2>
+    </script>
+</body>
+</html>
