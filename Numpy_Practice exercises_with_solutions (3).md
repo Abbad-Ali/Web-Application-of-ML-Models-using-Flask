@@ -8,7 +8,7 @@ and in the numpy documentation. The goal of this collection is to offer a quick 
 and new users but also to provide a set of exercises for those who teach.
 
 
-If you find an error or think you've a better way to solve some of them, feel
+If you find an error or think you've a better way to solve some of them, feel free to reach out to me
 
 #### 1. Import the numpy package under the name `np` (★☆☆)
 
